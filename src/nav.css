@@ -1,0 +1,34 @@
+
+  
+  nav {
+    position: fixed;
+    right: -35px;
+    width: 0%;
+    padding: 1rem;
+    transition: 0.5s all ease;
+    height: 10vh;
+    background: #cfd8dc;
+  }
+  nav.open {
+    width: 100%;
+    transition: 0.5s all ease;
+    right:0;
+  }
+  button {
+    position: absolute;
+    top: 0px;
+    right: 210px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    display: inline-block;
+    padding: 0 10px;
+  }
+  
+  
